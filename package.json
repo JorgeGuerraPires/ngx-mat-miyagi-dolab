@@ -1,6 +1,6 @@
 {
   "name": "ngx-mat-miyagi-dolab",
-  "version": "0.0.6",
+  "version": "0.0.10",
   "description": "This is set of public packages from Miyagi-Do lab, related to mathematical modeling applied to life sciences.",
   "author": "Jorge Guerra Pires, PhD (jorgeguerrabrazil@gmail.com)",
   "peerDependencies": {
@@ -8,16 +8,18 @@
     "@angular/core": "^11.2.14"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "mathjs": "^10.0.0",
+    "@types/mathjs": "^9.4.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JorgeGuerraPires/Miyagi-Do-lab"
+    "url": "https://github.com/JorgeGuerraPires/ngx-mat-miyagi-dolab/tree/master"
   },
   "bugs": {
-    "url": "https://github.com/JorgeGuerraPires/Miyagi-Do-lab/issues"
+    "url": "https://github.com/JorgeGuerraPires/ngx-mat-miyagi-dolab/issues"
   },
-  "homepage": "https://miyagi-do-lab.herokuapp.com/#/",
+  "homepage": "https://miyagi-do-lab.herokuapp.com",
   "keywords": [
     "angular",
     "javascript",

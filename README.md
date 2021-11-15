@@ -56,29 +56,60 @@ Quite simple actually!
 Sure thing! Should you create, please let me know!
 See an example here: https://github.com/JorgeGuerraPires/Miyagi-Do-lab/blob/version_1_0_1_unittesting/src/app/mathematics/utils/functions/linear.ts
 
+####  Cameleon function
+
+Cameleon is a generic function, that uses mathjs. Working to make it even better. 
+For now, it can be heady to create your own function! 
+I have already tested with the integrator, see the specs!
+
+
+```
+//From our public package
+import { Cameleon } from 'ngx-mat-miyagi-dolab';
+
+.....
+    
+    const arg: string = '"a":4, "b":3';
+    const model = "x ^ a +b  ";
+    const cameleon = new Cameleon(model, arg);
+
+
+    cameleon.calculate(1);//print if you will
+.....
+
+
+```
 
 ### Can I create my own integrator
 Sure thing! Should you create, please let me know!
 See an example here: https://github.com/JorgeGuerraPires/Miyagi-Do-lab/blob/version_1_0_1_unittesting/src/app/mathematics/utils/integrators/euler.ts
 
 
+
+
 ## Unit testing
 Unit testing? Got you covered! Glad I had implemented!
 On the moment of deploy: 
 
-```
-7 specs, 0 failures
 
-Linear
-should create an instance
-should create an instance from given parameter to constructor, and store the parameter
-should return values in a straight line with inclination equal to alfa
+```
+10 specs, 0 failures
+
 Euler
-should create an instance
 Testing the internal methods
-One step forward
-two step forward
+Testing the Cameleon function: two step forward
 Simulation time should be equal real time when they are multiples
+two step forward
+One step forward
+should create an instance
+Testing methods
+Testing the superclass method
+Linear
+should return values in a straight line with inclination equal to alfa
+should create an instance from given parameter to constructor, and store the parameter
+should create an instance
+Cameleon should be created
+should create an instance
 ```
 
 
